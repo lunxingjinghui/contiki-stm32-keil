@@ -112,10 +112,12 @@ int main(void)
 	process_start(&etimer_process, NULL);					/*etimer线程启动										*/
 	autostart_start(autostart_processes);					/*用户自启动线程启动									*/
 
+	uint8_t lintest;
 	while(1)
 	{
 		do 
 		{
+			lintest++;
 			/*执行完所有needspoll为1的进程及处理完所有队列*/
 		}
 		while(process_run() > 0);							/*任务调度器轮询执行线程								*/
