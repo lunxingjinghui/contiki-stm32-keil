@@ -112,6 +112,8 @@ int main(void)
 	process_start(&etimer_process, NULL);					/*etimer线程启动										*/
 	autostart_start(autostart_processes);					/*用户自启动线程启动									*/
 
+	uint8_t remote = 0;
+	
 	while(1)
 	{
 		do 
