@@ -1,1 +1,1 @@
-conflict test local 12
+conflict test remote 11
