@@ -1,0 +1,2 @@
+这行是中文
+//This is comment
