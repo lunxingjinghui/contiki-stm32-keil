@@ -116,6 +116,8 @@ int main(void)
 	
 	while(1)
 	{
+		1111
+		
 		do 
 		{
 			/*执行完所有needspoll为1的进程及处理完所有队列*/
