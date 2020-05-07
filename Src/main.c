@@ -116,7 +116,7 @@ int main(void)
 	
 	while(1)
 	{
-		1111
+		4444
 		
 		do 
 		{
@@ -124,7 +124,7 @@ int main(void)
 		}
 		while(process_run() > 0);							/*任务调度器轮询执行线程								*/
 		
-		1111
+		4444
 	}
 }
 
